@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>MBTI Personality Survey</title>
+        <link rel="stylesheet" href="styles.css?v=1" />
+    </head>
+    <body>
+        <div id="app">
+            <div id="intro" class="container">
+                <h1>Discover Your MBTI Type</h1>
+                <p>
+                    Take this survey to find out your 4-letter Myers-Briggs Type
+                    Indicator.
+                </p>
+                <button id="start-btn">Start Survey</button>
+            </div>
+
+            <div id="survey" class="container" style="display: none">
+                <h2 id="question-text"></h2>
+                <div id="options-container" class="options-grid"></div>
+                <div class="progress">
+                    Question <span id="current-question">1</span> of 12
+                </div>
+            </div>
+
+            <div id="result" class="container" style="display: none">
+                <h1 id="result-header"></h1>
+                <p id="result-text" class="result-text"></p>
+                <button id="restart-btn">Take Again</button>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
