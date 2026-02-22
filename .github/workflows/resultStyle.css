@@ -1,0 +1,74 @@
+body{
+  background: linear-gradient( #6d8cabdd, #408196, #354097);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  color: #0c8edf;
+}
+
+#intro, #result {
+  background-color: rgba(43, 115, 191, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
+  
+}
+
+#code {
+  padding: 12px 20px;
+  border-radius: 25px;
+  border: 2px solid white;
+  background: transparent;
+  color: #000000
+  font-size: 16px;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+#code::placeholder {
+  color: rgb(0, 0, 0,0.7);
+}
+
+button{
+  padding: 12px 30px;
+  border-radius: 25px;
+  border: none;
+  background-color: white;
+  color: #0c27ed;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s, backgroundcolor 0.2s;\
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: #f0f0f0;
+}
+
+#theCoolestHeader{
+  margin-top: 0;
+  font-size: 2rem;
+  color: #464b4e
+}
+
+#context {
+  line-height:1.6;
+  margin-bottom: 20px
+  font-size: 1.1rem;
+  color: #464b4e
+}
+
+#video{
+  width:100%;
+  aspect-ratio: 16/9;
+  border-radius:12px;
+  border: none
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
