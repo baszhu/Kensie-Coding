@@ -17,13 +17,13 @@ function submit(code) { //code = to ENTJ
   let video = "";
   let header = "";
   // x6 for all the other endangered animals 
-  if (code == 'INFJ') { //code is not equal to INFJ so pass
+  if (code == 'INFJ') { //code is not equal to ENTJ so pass
     header = "Your Personality Type: The Architect";
        message = "Imaginative and strategic thinkers, with a plan for everything.";
     video = "";
     //sea lion
   }
-  else if (code == 'INTP') {//code is not equal to INTP so pass
+  else if (code == 'INTP') {//code is not equal to ENTJ so pass
     header = "Your Personality Type: The Logician";
       
     message = "Innovative inventors with an unquenchable thirst for knowledge.";
@@ -36,7 +36,7 @@ function submit(code) { //code = to ENTJ
     video = "";
     //garibaldi
   }
-  else if (code == 'ENTP') {
+  else if (code == 'ENTP') {//code is not equal to ENTJ so pass
     header = "Your Personality Type: The Debater";
      
     message = "Smart and curious thinkers who cannot resist an intellectual challenge.";
@@ -44,57 +44,57 @@ function submit(code) { //code = to ENTJ
     
     video = "";
   }
-  else if (code == 'INFJ') {
+  else if (code == 'INFJ') {//code is not equal to ENTJ so pass
     header = "Your Personality Type: The Advocate";
       
     message = "Quiet and mystical,yet very inspiring and tireless idealists.";
     video = "";
     //beluga whale
-    else if (code == 'INFP') {
+    else if (code == 'INFP') {//code is not equal to ENTJ so pass
     header = "Your Personality Type: The Mediator";
     message = "Poetic, kind, altruistic,people,always eager to help a good cause."
     }
 
     video = "";
   }
-  else if (code == 'ENFJ') {
+  else if (code == 'ENFJ') {//code is not equal to ENTJ so pass
     header = "Your Personality Type: The Protagonist";
     message = "Charismatic and inspiring leaders, able to mesmerize their listeners.";
     video = "";
   }
-else if (code == 'ENFP') {
+else if (code == 'ENFP') {//code is not equal to ENTJ so pass
   header = "Your Personality Type: The Campaigner";
   message = "Enthusiastic, creative and sociable free spirits, who can always find a reason to smile.";
   video = "";
-  else if (code == 'ISTJ') {
+  else if (code == 'ISTJ') {//code is not equal to ENTJ so pass
     header = "Your Personality Type: The Logistician";
     message ="Practical and fact-minded individuals, whose reliability cannot be doubted.";
     video = "";
-  else if (code == 'ISFJ') {
+  else if (code == 'ISFJ') {//code is not equal to ENTJ so pass
     header = "Your Personality Type: The Defender";
     message = "Very dedicated and warm protectors, always ready to defend their loved ones.";
   video = ""
-  else if (code == 'ESTJ') {
+  else if (code == 'ESTJ') {//code is not equal to ENTJ so pass
     header = "Your Personality Type: The Excutive";
     message = "Excellent administrators, unsurpassed at manging things - or people.";
     video = "";
-  else if (code == 'ESFJ') {
+  else if (code == 'ESFJ') {//code is not equal to ENTJ so pass
     header = "Your Personality Type: The Consul";
     message = "Extraordinarily caring, social and popular people, always eager to help.";
     video = "";
-  else if (code == 'ISTP') {
+  else if (code == 'ISTP') {//code is not equal to ENTJ so pass
     header = "Your Personality Type: The Virtuoso";
     message = "Bold and practical experimenters, masters of all kinds of tools.";
     video = "";
-  else if (code == 'ISFP') {
+  else if (code == 'ISFP') {//code is not equal to ENTJ so pass
     header = "Your Personality Type: The Adventurer";
     message = "Flexible and charming artists, always ready to explore and experience something new.";
     video = "";
-  else if (code == 'ESTP') {
+  else if (code == 'ESTP') {//code is not equal to ENTJ so pass
     header = "Your Personality Type: The Entrepreneur";
     message = "Smart, energetic and very perceptive people, who truly enjoy living on the edge.";
     video = "";
-  else if (code == 'ESFP') {
+  else if (code == 'ESFP') {//code is not equal to ENTJ so pass
     header = "Your Personality Type: The Entertainer";
     message = "Spontaneous, energetic and enthusiastic people - life is never boring around them.";
     video = "";
