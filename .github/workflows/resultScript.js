@@ -1,4 +1,14 @@
+function process_input() {
+  console.log("Button clicked!"); // This helps you debug
+  let inputField = document.getElementById("code");
 
+  if (inputField) {
+    let code = inputField.value.toUpperCase();
+    submit(code);
+  } else {
+    console.error("Could not find the input field with id='code'");
+  }
+}
 
 function submit(code) {
   console.log("submitted!")
@@ -107,17 +117,7 @@ function check_for_parameter(){
   }
 }
 
-function process_input() {
-  console.log("Button clicked!"); // This helps you debug
-  let inputField = document.getElementById("code");
 
-  if (inputField) {
-    let code = inputField.value.toUpperCase();
-    submit(code);
-  } else {
-    console.error("Could not find the input field with id='code'");
-  }
-}
 
 // Safer way to trigger the load
 window.addEventListener('load', check_for_parameter);
