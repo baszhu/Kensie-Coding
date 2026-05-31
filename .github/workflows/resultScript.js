@@ -1,37 +1,37 @@
 function process_input() {
   console.log("Button clicked!"); // This helps you debug
-  let inputField = document.getElementById("code");
-
-  if (inputField) {
-    let code = inputField.value.toUpperCase();
-    submit(code);
+  let inputField = document.getElementById("code"); //Entj
+  
+  if (inputField) { //if Entj exists.... As in if the script found a value within this inputField
+    let code = inputField.value.toUpperCase(); //If so, the Entj, becomes all CAPS to ENTJ
+    submit(code); //We call another function
   } else {
-    console.error("Could not find the input field with id='code'");
+    console.error("Could not find the input field with id='code'"); //there was no value in inputField
   }
 }
 
-function submit(code) {
+function submit(code) { //code = to ENTJ
   console.log("submitted!")
-  
+  //Empty variables:
   let message = "";
   let video = "";
   let header = "";
   // x6 for all the other endangered animals 
-  if (code == 'INFJ') {
+  if (code == 'INFJ') { //code is not equal to INFJ so pass
     header = "Your Personality Type: The Architect";
        message = "Imaginative and strategic thinkers, with a plan for everything.";
     video = "";
     //sea lion
   }
-  else if (code == 'INTP') {
+  else if (code == 'INTP') {//code is not equal to INTP so pass
     header = "Your Personality Type: The Logician";
       
     message = "Innovative inventors with an unquenchable thirst for knowledge.";
     //octopus
     video = "";
   }
-  else if (code == 'ENTJ') {
-    header = "Your Personality Type: The Commander";
+  else if (code == 'ENTJ') { //Code is equal to ENTJ!
+    header = "Your Personality Type: The Commander"; //Sets the variables to such:
     message = "Bold, imaginative and strong-willed leaders, always finding a way - or making one.";
     video = "";
     //garibaldi
@@ -98,6 +98,7 @@ else if (code == 'ENFP') {
     header = "Your Personality Type: The Entertainer";
     message = "Spontaneous, energetic and enthusiastic people - life is never boring around them.";
     video = "";
+  //shows and hides the div's and then sets the html values
   document.getElementById("intro").style.display = "none";
   document.getElementById("result").style.display = "block";
   document.getElementById("context").textContent = message;
