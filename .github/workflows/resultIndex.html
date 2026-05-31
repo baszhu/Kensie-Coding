@@ -5,16 +5,20 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Document</title>
    <style>
-      #result{
+      
+      #result{ 
          display: none;
    
       }
    </style>
+   <!-- hides the div with the ID of "result" -->
    <link rel="stylesheet" href="styles.css?v=23">
 </head>
 <body>
    <div id = "intro">
+      <!-- Input is asking user with an textbox asking "What is your code?" This placeholder disappears when user begins typing-->
       <input type = "text" placeholder = "What's your code?" id = "code">
+      <!-- This button runs a script called process_input() when the button "Submit is clicked" -->
       <button onclick = "process_input()"> Submit </button> 
    </div>
    <div id = "result">
